@@ -1,6 +1,6 @@
 # Image Scraper
 
-This is a simple beat build project command-line application that scrapes images from a given https://www.pornpics.com when given a url.
+This is a simple build project command-line application that scrapes images from a given https://www.pornpics.com when given a url.
 
 ## Prerequisites
 
