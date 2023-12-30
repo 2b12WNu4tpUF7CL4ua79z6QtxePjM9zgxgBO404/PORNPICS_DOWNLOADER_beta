@@ -21,13 +21,13 @@ The script will download the images and save them in a local directory.
 
 ```bash
 $ node mod.js
-Enter the URL: https://www.pornpics.com/galleries/teen-pornstar-piper-perri-gets-pussy-ravaged-by-massive-black-dick-71148719/
+Enter the URL: https://www.pornpics.com/pornstars/danny-d/
 ```
 
 ## Test Url for you to try
 
 ```bash
-https://www.pornpics.com/galleries/digital-desire-danni-ashe-77911194/
+https://www.pornpics.com/pornstars/danny-d/
 ```
 
 ## Note
