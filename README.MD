@@ -1,53 +1,42 @@
-# Image Scraper
+# Pornpics Scraper
 
-This is a simple build project command-line application that scrapes images from a given https://www.pornpics.com when given a url.
+This project is a Node.js script designed to scrape and download high-definition images from https://www.pornpics.com/. It uses Puppeteer to fully load web pages, including dynamically loaded content, and then extracts and downloads images matching specified patterns.
 
-## Prerequisites
+## Features
 
-Before you begin, ensure you have met the following requirements:
+- Uses Puppeteer to load web pages completely, mimicking user scrolling (trying).
+- Rotates user agents to mimic different browsers and devices (this prevents detection and blocking by websites).
+- Extracts and downloads images matching the URL pattern `https://cdni.pornpics.com/1280/` (this is where the hd image is).
+- Ignores thumbnails and other unwanted images (example of thumbnail URL `https://cdni.pornpics.com/460/7/725/86693883/86693883_015_dba7.jpg`).
+- Includes retry logic and logging.
 
-* You have installed Node.js and npm.
+## Requirements
 
-## Using Image Scraper
+- Node.js (I am currently using v20.16.0)
+- npm (Node Package Manager)
 
-To use Image Scraper, follow these steps:
+2. **Install the dependencies:**
 
-1. Run the script: `node mod.js`
-2. When prompted, enter the URL you want to scrape images from.
+    ```sh
+    npm install axios cheerio puppeteer winston
+    ```
 
-The script will download the images and save them in a local directory.
+## Configuration
 
-## Example Usage
+Create a `config.json` file in the project directory with the following structure:
 
-```bash
-$ node mod.js
-Enter the URL: https://www.pornpics.com/pornstars/danny-d/
-```
+```json
+{
+    "mainPageUrls": [
+      "https://www.pornpics.com/pornstars/paris-white/"
+    ]
+  }
 
-## Test Url for you to try
+## Example Images
 
-```bash
-https://www.pornpics.com/pornstars/danny-d/
-```
 
-## Note
+![image](https://raw.githubusercontent.com/2b12WNu4tpUF7CL4ua79z6QtxePjM9zgxgBO404/PORNPICS_DOWNLOADER_beta/main/readme_images/Pornpics%20downloader%20screenshot.jpg)
 
-Remember I have currently designed the code to match source code from the galleries url.
 
-## Future Plans
+![image2](https://raw.githubusercontent.com/2b12WNu4tpUF7CL4ua79z6QtxePjM9zgxgBO404/PORNPICS_DOWNLOADER_beta/fc34d38493276015ab52c1f2d6648c1183c1ad37/readme_images/pornpics%20image%20downloading%20in%20progress.jpeg)
 
-This is just a start and I am planning on finding a way to build and automate the process but I will have analyst and research first. This code is just a concept and is a quick whip up.
-
-## How I got the idea?
-
-I was look at pornpic one night (NOT MASTURBATING) and I was saving the pictures by clicking on the image and manually saving them and looked at the source code for the site and noticed that nothing really changes when i visited a new album but the only that changes is the urls etc but the the stuff like class names and that etc remained the same. I figured I write code the look for the class name that had the hd image and obtain the url in the href value and match jpg extension and simply download it.
-
-I could've use an exentension of some kind to do the work for me but simply put I enjoy building my project and also the second reason is I have mass downloading in mind for the future build. 
-
-## Why use a CLI program theme for your projects?
-
-I am simply suck at building front end code but building CLI programs just seems faster to me and rather easier. But I am still have to practice building front end applications or have build a front end ui for the code perhaps.
-
-## License
-
-This project uses the following license: MIT License.
