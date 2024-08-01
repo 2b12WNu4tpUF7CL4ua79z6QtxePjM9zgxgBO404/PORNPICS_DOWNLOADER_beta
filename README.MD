@@ -31,9 +31,9 @@ Create a `config.json` file in the project directory with the following structur
       "https://www.pornpics.com/pornstars/paris-white/"
     ]
   }
+```
 
 ## Example Images
-
 
 ![image](https://raw.githubusercontent.com/2b12WNu4tpUF7CL4ua79z6QtxePjM9zgxgBO404/PORNPICS_DOWNLOADER_beta/main/readme_images/Pornpics%20downloader%20screenshot.jpg)
 
