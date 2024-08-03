@@ -38,5 +38,3 @@ Create a `config.json` file in the project directory with the following structur
 ![image](https://raw.githubusercontent.com/2b12WNu4tpUF7CL4ua79z6QtxePjM9zgxgBO404/PORNPICS_DOWNLOADER_beta/main/readme_images/Pornpics%20downloader%20screenshot.jpg)
 
 
-![image2](https://raw.githubusercontent.com/2b12WNu4tpUF7CL4ua79z6QtxePjM9zgxgBO404/PORNPICS_DOWNLOADER_beta/fc34d38493276015ab52c1f2d6648c1183c1ad37/readme_images/pornpics%20image%20downloading%20in%20progress.jpeg)
-
